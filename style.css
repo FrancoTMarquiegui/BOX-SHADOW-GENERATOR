@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  padding: 0 10rem 0 10rem;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.block {
+  width: 200px;
+  height: 150px;
+  background: blue;
+  margin: 50px auto;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 1);
+}
+
+.block-properties {
+  text-align: center;
+  margin: 1rem auto 0 auto;
+  width: 400px;
+  height: 30px;
+  background-color: #e3e3e3;
+}
